@@ -167,12 +167,6 @@ def process_directory(input_dir, output_dir):
             print(f"Processed {filename}")
 
 if __name__ == "__main__":
-    label_input_folder = "E:\data/label"
-    label_output_folder = "E:\data/label"
     process_directory(label_input_folder, label_output_folder)
-
-    input_folder = "E:\data/peru/image"
-    output_folder = "E:\data/peru\image"
-
     image_process_directory(input_folder, output_folder)
 
