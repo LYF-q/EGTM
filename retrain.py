@@ -133,7 +133,7 @@ class Trainer(object):
         logging.info(f'Epoch {epoch + 1}, Acc: {Acc:.5f}')
         logging.info(f'Epoch {epoch + 1}, Acc_class: {Acc_class:.5f}')
         logging.info(f'Epoch {epoch + 1}, FWIoU: {FWIoU:.5f}')
-        logging.info(f'Epoch {epoch + 1}, Kappa: {F1:.5f}')
+        logging.info(f'Epoch {epoch + 1}, F1: {F1:.5f}')
 
         new_pred = mIoU
         is_best = False
